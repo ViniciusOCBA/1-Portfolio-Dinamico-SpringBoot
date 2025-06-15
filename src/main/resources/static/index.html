@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Oliveira - Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+    <nav class="navbar p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#sobre" class="text-white text-2xl font-bold">Vinicius Oliveira</a>
+            <button id="mobile-menu-button" class="text-white md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <div id="navbar-links" class="hidden md:flex space-x-6">
+                <a href="#sobre" class="text-gray-300 hover:text-white transition duration-300">Sobre</a>
+                <a href="#formacao" class="text-gray-300 hover:text-white transition duration-300">Formação</a>
+                <a href="#experiencia" class="text-gray-300 hover:text-white transition duration-300">Experiência</a>
+                <a href="#habilidades" class="text-gray-300 hover:text-white transition duration-300">Habilidades</a>
+                <a href="#cursos" class="text-gray-300 hover:text-white transition duration-300">Cursos</a>
+                <a href="#projetos" class="text-gray-300 hover:text-white transition duration-300">Projetos</a>
+                <a href="#contato" class="text-gray-300 hover:text-white transition duration-300">Contato</a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden mt-3">
+            <a href="#sobre" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Sobre</a>
+            <a href="#formacao" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Formação</a>
+            <a href="#experiencia" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Experiência</a>
+            <a href="#habilidades" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Habilidades</a>
+            <a href="#cursos" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Cursos</a>
+            <a href="#projetos" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Projetos</a>
+            <a href="#contato" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 hover:text-white rounded">Contato</a>
+        </div>
+    </nav>
+
+    <header id="sobre" class="hero-section py-20 md:py-32 text-center">
+        <div class="container mx-auto px-6">
+            <img src="" alt="Foto de Perfil" class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full mb-6 border-4 border-white shadow-lg" style="display: none;"> 
+            <h1 class="text-4xl md:text-5xl font-bold mb-4"></h1>
+            <p class="text-xl md:text-2xl mb-8"></p>
+            <p class="text-lg max-w-3xl mx-auto leading-relaxed"></p>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <div id="formacao-content"></div>
+        <div id="experiencia-content"></div>
+        <div id="habilidades-content"></div>
+        <div id="cursos-content"></div>
+        <div id="projetos-content"></div>
+        <div id="contato-content"></div>
+    </main>
+
+    <footer class="footer p-8 text-center">
+        <p>&copy; <span id="currentYear"></span> Vinicius Oliveira. Todos os direitos reservados.</p>
+        <p class="text-sm mt-1">Desenvolvido com <i class="fas fa-heart text-red-500"></i> e Tailwind CSS.</p>
+    </footer>
+<script src="js/script.js"></script>
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
